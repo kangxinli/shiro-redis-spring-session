@@ -25,8 +25,9 @@
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
 		<param-value>
-			classpath:spring-redis-sentinel.xml
 			<!-- classpath:spring-core.xml -->
+			<!-- classpath:spring-redis-sentinel.xml -->
+			classpath:spring-redis-cluster.xml
 		</param-value>
 	</context-param>
 
